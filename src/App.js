@@ -4,7 +4,7 @@ import { Router } from './routes/routes';
 
 function App() {
   const content = useRoutes(Router);
-  return <div className='container'>{content}</div>;
+  return <div className='w-full'>{content}</div>;
 }
 
 export default App;
